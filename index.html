@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PeopleTree — fresh handmade cottage cheese, crafted in small batches and delivered fresh.">
+  <meta name="theme-color" content="#b81620">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <meta property="og:title" content="PeopleTree — Fresh Cottage Cheese">
+  <meta property="og:description" content="Handmade cottage cheese, crafted in small batches and delivered fresh across Lahore.">
+  <meta property="og:image" content="assets/hero-cheese.png">
+  <meta property="og:type" content="website">
+  <title>PeopleTree — Fresh Cottage Cheese</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#products">Skip to products</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <div class="announcement"><span>Free delivery across Lahore</span><span>100% pure dairy products</span><span>Small-batch freshness</span><span class="announcement-right">Track order&nbsp;&nbsp; | &nbsp;&nbsp;Login / Register</span></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="PeopleTree home"><img src="assets/logo.svg" alt="PeopleTree"></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="active" href="#top">Home</a><a href="#products">Products</a><a href="#story">About Us</a><a href="#story">Our Story</a><a href="#journal">Blog</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions"><button aria-label="Search" class="icon-btn">⌕</button><button aria-label="Account" class="icon-btn">♙</button><button aria-label="Cart" class="cart-btn">🛒<b id="cartCount">0</b></button></div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">PURE <i>•</i> NATURAL <i>•</i> HEALTHY</p>
+        <h1>Fresh Cottage Cheese<br><em>for a Healthier You</em></h1>
+        <p>Made from the finest milk, our cottage cheese brings you pure goodness, rich in protein and full of natural flavor.</p>
+        <a class="btn btn-light" href="#products">Shop Now <span>→</span></a>
+      </div>
+      <div class="hero-art" role="img" aria-label="Fresh herb cottage cheese on a slate board"></div>
+      <div class="hero-leaf leaf-one">❧</div><div class="hero-leaf leaf-two">❧</div>
+    </section>
+
+    <section class="benefits" data-reveal aria-label="PeopleTree benefits">
+      <div><span class="benefit-icon">⌁</span><strong>100% Pure</strong><small>Dairy Product</small></div>
+      <div><span class="benefit-icon">♢</span><strong>High Protein</strong><small>No Preservatives</small></div>
+      <div><span class="benefit-icon">♧</span><strong>Farm Fresh</strong><small>Natural Ingredients</small></div>
+      <div><span class="benefit-icon">♡</span><strong>Better Nutrition</strong><small>For a Healthier Life</small></div>
+    </section>
+
+    <section class="products section" id="products">
+      <div class="section-heading" data-reveal><div class="ornament">— ◇ —</div><p class="eyebrow red">OUR SIGNATURE RANGE</p><h2>Crafted with care. <em>Loved for taste.</em></h2><p>Fresh, wholesome cheeses made in small batches for everyday moments and special tables.</p></div>
+      <div class="product-grid">
+        <article class="product-card" data-reveal data-name="Cottage Cheese" data-price="650"><div class="product-img"><img loading="lazy" decoding="async" src="assets/cottage-cheese.png" alt="Cottage cheese"></div><div class="product-info"><h3>Cottage Cheese</h3><p>Soft · Creamy · Natural</p><p class="price">Rs. 650</p><button class="add-btn">Add to cart <span>+</span></button></div></article>
+        <article class="product-card" data-reveal data-name="Garlic Herb" data-price="750"><div class="product-img"><img loading="lazy" decoding="async" src="assets/garlic-herb.png" alt="Garlic herb cheese"></div><div class="product-info"><h3>Garlic Herb</h3><p>Fresh Herbs · Rich Flavor</p><p class="price">Rs. 750</p><button class="add-btn">Add to cart <span>+</span></button></div></article>
+        <article class="product-card" data-reveal data-name="Chilli Olive" data-price="790"><div class="product-img"><img loading="lazy" decoding="async" src="assets/chilli-olive.png" alt="Chilli olive cheese"></div><div class="product-info"><h3>Chilli Olive</h3><p>Spicy · Tangy · Delicious</p><p class="price">Rs. 790</p><button class="add-btn">Add to cart <span>+</span></button></div></article>
+        <article class="product-card" data-reveal data-name="Ricotta" data-price="700"><div class="product-img"><img loading="lazy" decoding="async" src="assets/ricotta.png" alt="Ricotta cheese"></div><div class="product-info"><h3>Ricotta</h3><p>Light · Creamy · Versatile</p><p class="price">Rs. 700</p><button class="add-btn">Add to cart <span>+</span></button></div></article>
+      </div>
+    </section>
+
+    <section class="story section" id="story">
+      <div class="story-image" data-reveal><img loading="lazy" decoding="async" src="assets/hero-cheese.png" alt="Handmade cheese with herbs"></div>
+      <div class="story-copy" data-reveal><p class="eyebrow red">THE PEOPLETREE WAY</p><h2>Good food starts with <em>good milk.</em></h2><p>PeopleTree makes handmade cottage cheese in small batches, keeping the process simple so the natural taste stays at the heart of every bite.</p><div class="story-points"><span>01</span><div><strong>Freshly prepared</strong><small>Made in small batches for peak freshness.</small></div><span>02</span><div><strong>Nothing unnecessary</strong><small>Pure dairy goodness with no shortcuts.</small></div></div><a class="btn btn-red" href="#contact">Discover our story →</a></div>
+    </section>
+
+        <section class="banner" id="journal"><div><p class="eyebrow">A TABLE WORTH SHARING</p><h2>Good Food<br>Brings People Together</h2><a class="btn btn-light" href="#products">Explore Our Products →</a></div><img loading="lazy" decoding="async" src="assets/ricotta.png" alt="Fresh ricotta served for sharing"></section>
+
+    <section class="values"><div><strong>Premium Quality</strong><small>Carefully crafted dairy</small></div><div><strong>Sustainable Farming</strong><small>Respect for our ingredients</small></div><div><strong>Trusted by Families</strong><small>Made for everyday goodness</small></div><div><strong>Secure Payments</strong><small>Simple, safe checkout</small></div></section>
+
+    <section class="newsletter section" id="contact"><div><p class="eyebrow red">STAY IN THE LOOP</p><h2>Fresh news, recipes & <em>cheesy inspiration.</em></h2></div><form id="newsletter"><input type="email" placeholder="Your email address" required><button class="btn btn-red" type="submit">Subscribe</button></form><p id="formMsg" class="form-msg" aria-live="polite"></p></section>
+  </main>
+
+  <footer><div class="footer-brand"><img src="assets/logo.svg" alt="PeopleTree"><p>Handmade cottage cheese prepared in small batches. Delivered fresh across Lahore.</p></div><div><h4>Explore</h4><a href="#products">Products</a><a href="#story">Our Story</a><a href="#journal">Journal</a></div><div><h4>Help</h4><a href="#contact">Contact</a><a href="#contact">Delivery</a><a href="#contact">FAQs</a></div><div><h4>Follow</h4><a href="#contact">Instagram</a><a href="#contact">Facebook</a><a href="#contact">WhatsApp</a></div><div class="copyright">© <span id="year"></span> PeopleTree. Made with care.</div></footer>
+
+  <div class="cart-drawer" aria-hidden="true"><div class="drawer-inner"><button class="close-cart">×</button><p class="eyebrow red">YOUR CART</p><h2>Fresh choices.</h2><div class="ship-bar"><p id="shipMsg"></p><div class="ship-track"><i id="shipFill"></i></div></div><div id="cartItems"></div><div class="cart-total"><span>Total</span><strong>Rs. <span id="total">0</span></strong></div><button class="btn btn-red checkout">Checkout →</button></div></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
